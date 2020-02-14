@@ -67,7 +67,7 @@ class Signup extends Component {
         <div>
           {this.props.errorMessage}
         </div>
-        <button type="submit">Sign Up</button>
+        <button>Sign Up</button>
       </form>
     );
   }

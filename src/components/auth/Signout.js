@@ -8,8 +8,8 @@ class Signout extends Component {
   }
 
   render() {
-    return <div>Bye Bye</div>
+    return <div>Bye Bye</div>;
   }    
 }
 
-export default connect(null, actions) (Signout);
+export default connect(null, actions)(Signout);

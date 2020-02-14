@@ -17,7 +17,7 @@ class Login extends Component {
     return (
       <form onSubmit={handleSubmit(this.onSubmit)}>
         <fieldset>
-          <label htmlFor="email">Username</label>
+          <label htmlFor="username">Username</label>
           <Field
             name='username'
             type='text'
@@ -37,7 +37,7 @@ class Login extends Component {
         <div>
           {this.props.errorMessage}
         </div>
-        <button type="submit">Login</button>
+        <button>Login</button>
       </form>
     );
   }

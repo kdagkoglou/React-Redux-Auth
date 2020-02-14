@@ -52,8 +52,8 @@ class TopNav extends Component {
 
 }
 
-function mapToStateProps(state) {
+function mapStateToProps(state) {
   return { authenticated: state.auth.authenticated };
 }
 
-export default connect(mapToStateProps) (TopNav);
+export default connect(mapStateToProps) (TopNav);
