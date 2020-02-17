@@ -1,5 +1,6 @@
 .navbar {
   background-color: var(--navbar-color) !important;
   /* height: 60px; */
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }

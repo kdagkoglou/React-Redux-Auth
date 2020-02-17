@@ -1,5 +1,4 @@
 {
-  "editor.formatOnSave": true,
-  "javascript.format.enable": false,
-  "prettier.eslintIntegration": true
+  "editor.fontSize": 10,
+  "editor.tabSize": 2
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import TopNav from './TopNav';
 
-export default ({children}) => {
+export default ({ children }) => {
   return (
     <div>
       <TopNav />
